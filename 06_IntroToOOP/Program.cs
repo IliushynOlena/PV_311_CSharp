@@ -49,11 +49,12 @@
     partial class Point//private
     {
         private int xCoord;
-        //Properties
+        //Properties / full
         public int XCoord//int value
         {
             get { return xCoord; }
-            set {
+            set//(int value)
+            {
                 if (value > 0)
                     this.xCoord = value;
                 else
@@ -96,7 +97,6 @@
             return $"X: {xCoord}. Y : {yCoord}";
         }
     }
-
     partial class Point
     {
         public void TestFunction()
