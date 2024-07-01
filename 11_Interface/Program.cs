@@ -3,10 +3,10 @@
     interface IWorker
     {
         //public
-        bool IsWorking { get; set; }
+        bool IsWorking { get; set; }  
         void Work();
-        event EventHandler<EventArgs> Worked;
 
+        event EventHandler<EventArgs> Worked;
     }
 
     abstract class Human
