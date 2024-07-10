@@ -288,6 +288,19 @@ namespace _18_GenericCollection
         }
         // Generic Method ------------------------
 
+        static T CalculateSumOfElements<T>(T[] arr)
+        {
+            T sum = default(T);
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                sum += (dynamic)arr[i];
+            }
+
+            return sum;
+        }
+
+
         static void ShowObject<T>(T obj)
         {
             //Console.WriteLine(obj);
