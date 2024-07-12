@@ -39,13 +39,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17_StandartGenerics", "17_S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "18_Generics", "18_Generics\18_Generics.csproj", "{29FD1387-4BD2-4AFB-A814-40CF546A8FA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19_Attributes", "19_Attributes\19_Attributes.csproj", "{26BA1969-BE4A-40B5-A402-CC17724186CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "19_Attributes", "19_Attributes\19_Attributes.csproj", "{26BA1969-BE4A-40B5-A402-CC17724186CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20_Serializable", "20_Serializable\20_Serializable.csproj", "{A7F3EC86-271C-4116-AD42-62A58A82D501}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "20_Serializable", "20_Serializable\20_Serializable.csproj", "{A7F3EC86-271C-4116-AD42-62A58A82D501}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21_JsonXML", "21_JsonXML\21_JsonXML.csproj", "{36E117E8-692E-40C5-BFD0-7B5C08E13A4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21_JsonXML", "21_JsonXML\21_JsonXML.csproj", "{36E117E8-692E-40C5-BFD0-7B5C08E13A4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22_DataAnnotations", "22_DataAnnotations\22_DataAnnotations.csproj", "{0BFF2977-2A4D-4D8A-B210-A6931A5CCDBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "22_DataAnnotations", "22_DataAnnotations\22_DataAnnotations.csproj", "{0BFF2977-2A4D-4D8A-B210-A6931A5CCDBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23_RegularExpression", "23_RegularExpression\23_RegularExpression.csproj", "{0AE8BC6B-813F-499A-920A-BA029F0DA3C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{0BFF2977-2A4D-4D8A-B210-A6931A5CCDBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BFF2977-2A4D-4D8A-B210-A6931A5CCDBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BFF2977-2A4D-4D8A-B210-A6931A5CCDBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AE8BC6B-813F-499A-920A-BA029F0DA3C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AE8BC6B-813F-499A-920A-BA029F0DA3C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AE8BC6B-813F-499A-920A-BA029F0DA3C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AE8BC6B-813F-499A-920A-BA029F0DA3C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

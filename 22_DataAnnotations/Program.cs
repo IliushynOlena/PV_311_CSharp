@@ -1,4 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
+
+using System.ComponentModel.DataAnnotations.Schema;
 namespace _22_DataAnnotations
 {
     class User
@@ -11,7 +13,8 @@ namespace _22_DataAnnotations
         [Required(ErrorMessage = "Age not setted")]
         [Range(1,120, ErrorMessage ="Age is incorrect")]
         public int Age { get; set; }
-        [Phone]
+        //[Phone]
+        [RegularExpression(@"\+38\(\d{3}\)\d{3}-\d{2}-\d{2}")]
         public string Phone { get; set; }
         [EmailAddress]
         public string Email { get; set; }
